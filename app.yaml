@@ -1,0 +1,16 @@
+name: ym-productions
+services:
+- name: web
+  github:
+    repo: patrickgodwin/ym-productions
+    branch: master
+  source_dir: /
+  build_command: ""
+  http_port: 80
+  envs:
+  - key: NODE_ENV
+    value: production
+  static_sites:
+  - source_dir: /
+    routes:
+    - path: /
