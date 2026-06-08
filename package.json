@@ -1,0 +1,21 @@
+{
+  "name": "ym-productions-website",
+  "version": "1.0.0",
+  "description": "YOUR MOMENT PRODUCTIONS - Professional Creative Production Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "video production",
+    "photography",
+    "creative development",
+    "audio production"
+  ],
+  "author": "YOUR MOMENT PRODUCTIONS",
+  "license": "MIT",
+  "dependencies": {
+    "wrangler": "^4.98.0"
+  }
+}

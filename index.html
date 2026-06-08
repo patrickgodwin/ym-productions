@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YOUR MOMENT PRODUCTIONS - Veteran-owned creative production company. Video production, photography, editing, and creative development.">
+    <meta name="theme-color" content="#000000">
+    <title>YOUR MOMENT PRODUCTIONS - Video & Audio Production</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-wrapper">
+                    <div class="logo">
+                        <span class="logo-circle">YM</span>
+                    </div>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">HOME</a>
+                    <a href="#about" class="nav-link">ABOUT</a>
+                    <a href="#services" class="nav-link">SERVICES</a>
+                    <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                    <a href="#blog" class="nav-link">BLOG</a>
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </div>
+                <button class="cta-primary">LET'S CREATE</button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Left Side -->
+                <div class="hero-left">
+                    <div class="hero-logo">
+                        <svg viewBox="0 0 120 120" class="logo-badge">
+                            <circle cx="60" cy="60" r="58" fill="none" stroke="#C4A853" stroke-width="2"/>
+                            <circle cx="60" cy="60" r="55" fill="none" stroke="#C4A853" stroke-width="0.5" opacity="0.5"/>
+                            <text x="60" y="28" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#C4A853" letter-spacing="2">VETERAN OWNED</text>
+                            <g transform="translate(60, 60)">
+                                <!-- Microphone Icon -->
+                                <circle cx="-18" cy="0" r="6" fill="#C4A853" opacity="0.8"/>
+                                <path d="M -18 6 L -18 10" stroke="#C4A853" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+                                <!-- Camera Icon -->
+                                <rect x="8" y="-6" width="12" height="10" rx="1" fill="none" stroke="#C4A853" stroke-width="1.5" opacity="0.8"/>
+                                <circle cx="14" cy="-1" r="2.5" fill="none" stroke="#C4A853" stroke-width="1" opacity="0.8"/>
+                                <!-- People/Group Icon -->
+                                <g opacity="0.8">
+                                    <circle cx="0" cy="-5" r="3" fill="#C4A853"/>
+                                    <path d="M -4 -1 L 4 -1 L 3 4 L -3 4 Z" fill="#C4A853"/>
+                                </g>
+                            </g>
+                            <text x="60" y="100" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" font-weight="600" fill="#C4A853" letter-spacing="1">CREATE IT.</text>
+                        </svg>
+                    </div>
+
+                    <h1 class="hero-headline">
+                        YOUR VISION.<br>
+                        <span class="gold">OUR CRAFT.</span><br>
+                        YOUR MOMENT.
+                    </h1>
+
+                    <p class="hero-description">
+                        YOUR MOMENT PRODUCTIONS is a veteran-owned creative production company dedicated to storytelling that inspires, connects, and leaves a lasting impact.
+                    </p>
+
+                    <a href="#contact" class="cta-button">LET'S CREATE SOMETHING EXTRAORDINARY</a>
+
+                    <!-- Services Grid -->
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 48 48" fill="none">
+                                    <circle cx="24" cy="20" r="8" stroke="#C4A853" stroke-width="2"/>
+                                    <path d="M 24 28 L 24 34 M 16 30 Q 16 36 24 36 Q 32 36 32 30" stroke="#C4A853" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <h3>VIDEO PRODUCTION</h3>
+                            <p>Cinematic storytelling with professional equipment</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 48 48" fill="none">
+                                    <rect x="8" y="12" width="32" height="24" rx="2" stroke="#C4A853" stroke-width="2"/>
+                                    <circle cx="24" cy="24" r="6" stroke="#C4A853" stroke-width="2"/>
+                                    <circle cx="35" cy="16" r="2" fill="#C4A853"/>
+                                </svg>
+                            </div>
+                            <h3>PHOTOGRAPHY</h3>
+                            <p>Capturing moments with precision and artistry</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 48 48" fill="none">
+                                    <path d="M 12 38 L 36 38 L 36 14 L 24 8 L 12 14 Z" stroke="#C4A853" stroke-width="2" stroke-linejoin="round"/>
+                                    <path d="M 20 20 L 24 24 L 28 20" stroke="#C4A853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3>EDITING & POST</h3>
+                            <p>Polishing stories into powerful productions</p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 48 48" fill="none">
+                                    <circle cx="16" cy="16" r="6" stroke="#C4A853" stroke-width="2"/>
+                                    <circle cx="32" cy="16" r="6" stroke="#C4A853" stroke-width="2"/>
+                                    <circle cx="24" cy="30" r="6" stroke="#C4A853" stroke-width="2"/>
+                                    <path d="M 20 21 L 22 27" stroke="#C4A853" stroke-width="1.5"/>
+                                    <path d="M 28 21 L 26 27" stroke="#C4A853" stroke-width="1.5"/>
+                                </svg>
+                            </div>
+                            <h3>CREATIVE DEVELOPMENT</h3>
+                            <p>Transforming concepts into compelling content</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Circular Badge -->
+                <div class="hero-right">
+                    <div class="circular-badge">
+                        <svg viewBox="0 0 400 400" class="badge-svg">
+                            <!-- Outer Circle -->
+                            <circle cx="200" cy="200" r="190" fill="none" stroke="#C4A853" stroke-width="3"/>
+                            <circle cx="200" cy="200" r="185" fill="none" stroke="#C4A853" stroke-width="1" opacity="0.3"/>
+                            
+                            <!-- Top Text -->
+                            <defs>
+                                <path id="topArc" d="M 50,200 A 150,150 0 0,1 350,200" fill="none"/>
+                                <path id="bottomArc" d="M 350,200 A 150,150 0 0,1 50,200" fill="none"/>
+                            </defs>
+                            
+                            <text font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="3" fill="#C4A853" opacity="0.9">
+                                <textPath href="#topArc" startOffset="50%" text-anchor="middle">
+                                    VETERAN OWNED
+                                </textPath>
+                            </text>
+
+                            <!-- Center Circle -->
+                            <circle cx="200" cy="200" r="120" fill="none" stroke="#C4A853" stroke-width="1" opacity="0.3"/>
+                            
+                            <!-- Center Icons -->
+                            <g opacity="0.8">
+                                <!-- Microphone -->
+                                <circle cx="160" cy="180" r="12" fill="#C4A853" opacity="0.6"/>
+                                <circle cx="160" cy="180" r="10" fill="none" stroke="#C4A853" stroke-width="1.5"/>
+                                
+                                <!-- Center Logo -->
+                                <text x="200" y="210" text-anchor="middle" font-family="Playfair Display, serif" font-size="32" font-weight="700" fill="#C4A853" opacity="0.9">YM</text>
+                                
+                                <!-- Camera -->
+                                <rect x="228" y="172" width="24" height="18" rx="2" fill="none" stroke="#C4A853" stroke-width="1.5" opacity="0.6"/>
+                                <circle cx="240" cy="181" r="5" fill="none" stroke="#C4A853" stroke-width="1.5" opacity="0.6"/>
+                            </g>
+
+                            <!-- Bottom Text -->
+                            <text font-family="Inter, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#C4A853" opacity="0.9">
+                                <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+                                    CREATE IT.
+                                </textPath>
+                            </text>
+                        </svg>
+
+                        <!-- Background Image Placeholder -->
+                        <div class="badge-background">
+                            <div class="badge-image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>ABOUT YOUR MOMENT PRODUCTIONS</h2>
+                <p class="section-subtitle">Veteran-owned. Professional. Creative.</p>
+            </div>
+            <div class="about-content">
+                <p>YOUR MOMENT PRODUCTIONS is dedicated to capturing the stories that matter. From podcasts to weddings, corporate events to worship services, we combine technical expertise with creative storytelling to deliver productions that inspire and connect.</p>
+                <p>Whether you need professional recording, editing, or complete creative development, we bring passion and precision to every project.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>OUR SERVICES</h2>
+            </div>
+            <div class="services-detailed">
+                <div class="service-detail">
+                    <h3>Video Production</h3>
+                    <p>Professional video capture for corporate events, weddings, worship services, and creative projects.</p>
+                </div>
+                <div class="service-detail">
+                    <h3>Podcast Recording & Editing</h3>
+                    <p>Multi-camera podcast recording with professional audio mixing and editing for distribution.</p>
+                </div>
+                <div class="service-detail">
+                    <h3>Photography</h3>
+                    <p>Event photography and promotional imagery that tells your story visually.</p>
+                </div>
+                <div class="service-detail">
+                    <h3>Editing & Post-Production</h3>
+                    <p>Audio cleanup, color correction, motion graphics, and complete video editing services.</p>
+                </div>
+                <div class="service-detail">
+                    <h3>Creative Development</h3>
+                    <p>Concept development, storyboarding, and creative direction for your projects.</p>
+                </div>
+                <div class="service-detail">
+                    <h3>Social Media Content</h3>
+                    <p>Short-form content creation optimized for TikTok, Instagram, YouTube, and beyond.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>PORTFOLIO</h2>
+                <p class="section-subtitle">Coming soon. Watch this space for our latest work.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-placeholder">
+                        <span>Video Production</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-placeholder">
+                        <span>Podcast Recording</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-placeholder">
+                        <span>Event Coverage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>INSIGHTS & UPDATES</h2>
+                <p class="section-subtitle">Coming soon. Tips, behind-the-scenes, and industry insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>LET'S CREATE</h2>
+                <p class="section-subtitle">Ready to tell your story? Get in touch.</p>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Tell us about your project..." rows="6" required></textarea>
+                    <button type="submit" class="cta-button">SEND MESSAGE</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Phone:</strong> <a href="tel:+1">Coming soon</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:contact@ymproductions.com">contact@ymproductions.com</a></p>
+                    <p><strong>Website:</strong> <a href="https://ymproductions.com">YMProductions.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">YM</div>
+                    <p>Veteran-owned creative production.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>FOLLOW US</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 YOUR MOMENT PRODUCTIONS. All rights reserved. Veteran-owned and operated.</p>
+                <p class="footer-credit">site built by <a href="#" class="credit-link">Alys</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
