@@ -1,0 +1,4 @@
+# Cloudflare Pages configuration
+build:
+  command: "echo 'Static site - no build needed'"
+  output_directory: "."
